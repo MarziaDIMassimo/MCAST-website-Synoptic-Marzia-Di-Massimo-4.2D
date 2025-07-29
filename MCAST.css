@@ -1,0 +1,216 @@
+
+
+ *{
+   margin: 0;
+ padding: 0;
+box-sizing: border-box;
+  }
+
+
+Body {
+
+    width: 100vw;
+    margin:0;
+}
+
+
+
+.curved {
+  background: #030365;
+  color:white;
+  text-align: center;
+}
+
+.curved h1{
+    font-size: 2rem;
+    font-family:  'Franklin Gothic Medium', 'Arial Narrow';
+    margin-top: 0;
+    }
+
+
+.curved svg{
+    display: block;
+}
+
+.curved.up {
+    background:  #9db7ff;
+}
+
+
+.container {
+    display: grid;
+ justify-content: center; 
+    padding: 2rem;
+}
+
+
+
+
+
+
+
+
+/*school logos*/
+.card__container{
+      display: grid; 
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    justify-items: center;
+}
+
+.card__article{
+    /*position: relative;
+    overflow: hidden;
+    text-align: center;
+      display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;*/
+   display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Paola__img{
+    /*width: 328px;
+    border-radius: 1.5rem; */
+      width: 100%;
+    max-width: 328px;
+    border-radius: 1.5rem;
+}
+
+.card__data{
+    /*background-color: #ffffff;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+  border-radius: 1rem;
+  margin-top: 1rem;
+  padding: 1rem;
+  text-align: center;
+  width: 90%;
+  max-width: 328px;*/
+  background-color: #ffffff;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+    border-radius: 1rem;
+    margin-top: 1rem;
+    padding: 1rem;
+    text-align: center;
+    width: 100%;
+    max-width: 328px;
+}
+
+.card__description{
+    display: block;
+    font-size: var(--small-font-size);
+    margin-bottom: .25rem;
+    text-align: center;
+
+}
+
+.card__title{
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+    font-weight: 500;
+    font-size: 1rem;
+    margin: 0;
+    color: #000000;
+
+}
+
+.card__button{
+    text-decoration: none;
+    /*font-size: var(--small-font-size);*/
+    font-weight: 500;
+    /*color: var(--first-color);*/
+    text-align: center;
+
+}
+
+.card__button:hover{
+    text-decoration: underline;
+
+}
+
+@media screen and (min-width:1120px){
+    .container{
+        height: 100vh;
+    }
+
+    .card__container{
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .Paola__img{
+       width: 348px;
+    }
+    .card__data{
+        width: 300px;
+        height: 50px;
+        margin: 10px;
+       /* padding-inline: 1rem;*/
+    }
+}
+
+
+/*lvl courses*/
+
+.all {
+width:38%;
+margin: auto;
+color: white;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+font-size:40px;
+}
+
+/*footer*/
+
+.container2{
+max-width: 1170px;
+
+margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ul{
+    list-style: none;
+}
+
+.footer {
+ background-color: #030365;
+padding: 70px 0;
+}
+
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+   font-size: 18px;
+color: white;
+text-transform: capitalize;
+margin-bottom: 30px;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+}
+
+
+/*page 2*/
+@media screen and (min-width:1120px){
+    .container{
+        height: 100vh;
+    }
+
+    .list__container{
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .Paola__img{
+       width: 348px;
+    }
+    .card__data{
+        width: 300px;
+        height: 50px;
+        margin: 10px;
+       /* padding-inline: 1rem;*/
+    }
+}
+
