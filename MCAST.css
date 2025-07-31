@@ -59,35 +59,21 @@ Body {
 }
 
 .card__article{
-    /*position: relative;
-    overflow: hidden;
-    text-align: center;
-      display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 2rem;*/
+
    display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .Paola__img{
-    /*width: 328px;
-    border-radius: 1.5rem; */
+  
       width: 100%;
     max-width: 328px;
     border-radius: 1.5rem;
 }
 
 .card__data{
-    /*background-color: #ffffff;
-  box-shadow: 0 8px 24px rgba(0,0,0,0.15);
-  border-radius: 1rem;
-  margin-top: 1rem;
-  padding: 1rem;
-  text-align: center;
-  width: 90%;
-  max-width: 328px;*/
+   
   background-color: #ffffff;
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
     border-radius: 1rem;
@@ -117,9 +103,9 @@ Body {
 
 .card__button{
     text-decoration: none;
-    /*font-size: var(--small-font-size);*/
+  
     font-weight: 500;
-    /*color: var(--first-color);*/
+  
     text-align: center;
 
 }
@@ -145,20 +131,94 @@ Body {
         width: 300px;
         height: 50px;
         margin: 10px;
-       /* padding-inline: 1rem;*/
+     
     }
 }
 
 
 /*lvl courses*/
-
-.all {
-width:38%;
-margin: auto;
-color: white;
-font-family: 'Franklin Gothic Medium', 'Arial Narrow';
-font-size:40px;
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: white;           
+  text-decoration: none; 
 }
+
+
+
+
+
+/*contact form*/
+
+.contact-section {
+  background-color: #ffffff;
+  padding: 50px 70px;
+  max-width: 700px;
+  margin: 40px auto;
+  border-radius: 30px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  
+}
+
+.contact-section h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 28px;
+  color: #030365;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  margin-bottom: 10px;
+  color: #333;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+  padding: 12px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 20px;
+  font-family: inherit;
+  transition: border-color 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: #030365;
+  outline: none;
+}
+
+.submit-btn {
+  background-color: #030365;
+  color: #fff;
+  padding: 14px 20px;
+  border: none;
+  font-size: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  
+}
+
+.submit-btn:hover {
+  background-color: #081094;
+}
+
+
+
 
 /*footer*/
 
@@ -210,7 +270,7 @@ margin-bottom: 30px;
         width: 300px;
         height: 50px;
         margin: 10px;
-       /* padding-inline: 1rem;*/
+      
     }
 }
 

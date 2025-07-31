@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MAIN HUB</title>
+    <title>CONTACT US</title>
     <link rel="stylesheet" href="MCAST.css">
     
     <style>
@@ -12,7 +12,7 @@
  * {
    margin: 0;
  padding: 0;
-box-sizing: border-box;
+ box-sizing: border-box;
 
   }
 
@@ -20,60 +20,22 @@ box-sizing: border-box;
      body {
         background: #9db7ff;
     }
-    .all {
-width:80%;
-margin: 60px;
-color: white;
-font-family: 'Franklin Gothic Medium', 'Arial Narrow';
-font-size: 40px;
- background-color:white ;
- margin: 100px;
- border: 1px solid gray;
- padding: 0px 25px;
-   text-align: center;
-  color: Black;
-  border-radius: 30px;
+
+.contact-section {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
 }
 
-
-
-
-
-.Box {
-  color: rgb(255, 255, 255);
-   width: auto;
-    height: auto;
- text-align: center;
-    margin: 40px 0;
-   padding: 38px;
-   background-color: #030365;
-   border-radius: 10px;
-}
-
-
-.box img {
-  width: 500px;
-  height: auto;
-  border-radius: 2px;
- padding: 50px;
- 
-}
-
-    .png-MCAST {
-        align-items: center;
-    }
-
-
+          
 .footer-col .ul .li .a{
  text-decoration: none;
 }
 
-
-</style>
+  </style>
 </head>
-
 <body>
-    <div class="curved up">
+  
+
+ <div class="curved up">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 319">
             <path fill="#030365" fill-opacity="1" d="M0,160L60,170.7C120,
             181,240,203,360,181.3C480,160,600,96,720,112C840,128,960,224,1080,
@@ -85,9 +47,9 @@ font-size: 40px;
 
     <div class="curved">
 
- <h1 style="font-weight: bold;">MAIN HUB</h1>
-        <img class="png-MCAST" src="png/paola_.png" alt="MCAST_Logo">
-         
+        <h1 style="font-weight: bold;"></h1>
+        <img class="png-MCAST" src="png/MCAST_Logo.png" alt="MCAST_Logo">
+        
 
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 319">
             <path fill="#9db7ff" fill-opacity="1" d="M0,160L60,170.7C120,
@@ -98,36 +60,40 @@ font-size: 40px;
           </svg>
     </div>
 
-<div class="all">
- <h2>Interested in science, technology or more?</h2>
- <h2>Don't worry! Here at Paola campus you'll have all of the optios possible!</h2>
- <div class="Box">
- 
- <section>Lvl 1-2 COURSES</section>
- </div>
 
- <div class="Box">
-  <section>Lvl 3 DIPLOMAS</section>
- 
- </div>
+<section class="contact-section">
+    <h2>Want to study at MCAST?</h2>
+  <h2>Contact Us!</h2>
+  <form class="contact-form" action="#" method="post">
+    <div class="form-group">
+      <label for="name">Full Name</label>
+      <input type="text" id="name" name="name" required />
+    </div>
 
- <div class="Box">
-  <section>Lvl 4-5 ADVANCED DIPLOMAS</section>
-  
- </div>
+    <div class="form-group">
+      <label for="email">Email Address</label>
+      <input type="email" id="email" name="email" required />
+    </div>
 
- <div class="Box">
-  <section>Lvl 6 DEGREES </section>
- </div>
- <div class="box">
- <img src="png/graduate.png" alt="student">
- </div>
-</div>
+    <div class="form-group">
+      <label for="subject">Subject</label>
+      <input type="text" id="subject" name="subject" required />
+    </div>
+
+    <div class="form-group">
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+    </div>
+
+    <button type="submit" class="submit-btn">Send Message</button>
+    <img src="jpg/poster.jpg" alt="student">
+  </form>
+</section>
 
 
-<!--website footer-->
 
-<footer class="footer">
+
+    <footer class="footer">
  <div class="container2">
    <div class="row">
 
